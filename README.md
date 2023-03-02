@@ -24,8 +24,13 @@ About:
 
 
 Notes:
-1.)
+1.)Search For City
+    a.)current conditions.
 
-2.)
+2.)Info About That City
+    a.) city name, the date, weather icon, the temp., the humidity, and wind speed.
 
-3.)
+3.)Future Weather For That City
+    a.)5-day forecast, with Info.
+4.)Search History
+    a.) Ability to click on city in search history.
