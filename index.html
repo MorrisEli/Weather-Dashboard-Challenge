@@ -15,23 +15,41 @@
     <div class="row">
         <div class="col-sm-4">
             <h4 class="Search">Search City:</h4><!--Search Button-->
+            <div class="input mb-3">
+                <input type="text" class="form" id="search-city" aria-label="City-Search" aria-describedby="search-button">
+                <div class="input-append">
+                    <button class="btn bg-primary" id="search-button"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" type="button" id="clear-history">Clear History</button>
+            <ul class="group-list">
+
+            </ul>
         </div>
     </div>
-    <div>
-        <!--Current Info Input-->
-        <p>Date</p>
-        <p>Temperature:</p>
-        <p>Humidity</p>
-        <p>Wind Speed</p>
-        
+    <div class="col-sm-8">
+        <div class="row ml-2">
+            <div class="col-sm-12" id="current-weather">
+            <!--Current Info Input-->
+                <p>Date</p>
+                <p>Temperature: <span class="current" id="temperature"></span></p>
+                <p>Humidity<span class="current" id="humidity"></span></p>
+                <p>Wind Speed<span class="current" id="wind-speed"></span></p>
+            </div>
+        </div>
     </div>
     <!--Future Info Input-->
-    <div>
-        <h4>5-Day Forecast</h4>
-            <p>Date</p>
-            <p>Temp:</p>
-            <p>Humidity</p>
-            <p>Wind Speed</p>
+    <div class="col-sm-12" id="future-weather">
+        <h4>5-Day Forecast:</h4>
+            <div class="row text-light">
+                <div class="col-sm-2">
+                    <p>Date</p>
+                    <p>Temp:</p>
+                    <p>Humidity</p>
+                    <p>Wind Speed</p>
+                    </div>
+            </div>
     </div>
 
 
