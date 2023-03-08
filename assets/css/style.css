@@ -1,5 +1,37 @@
+:root {
+    --primarycolor: rgb(9, 33, 100);
+    --secondarycolor: rgb(155, 155, 155); 
+    --alternatecolor: rgb(178, 160, 18);
+
+}
+
 h1 {
     text-align: center;
-    background-color: black;
+    background-color: var(--primarycolor);
+    text-shadow: 1px 2px var(--alternatecolor);
     color: white;
+    font-size: 300%;
+}
+
+p {
+    background-color: var(--secondarycolor);
+}
+
+h4 {
+    background-color: var(--primarycolor);
+    font-size: 100%;
+    color: white;
+}
+
+.search-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.city-name {
+    font-size: 30px;
+}
+
+.forecast-date {
+    font-size: 18px;
 }
